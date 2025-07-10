@@ -8,7 +8,7 @@ class HalloPython(QMainWindow):
     def __init__(self):
         QMainWindow.__init__(self)
         loadUi(os.path.join(os.path.dirname(__file__), 'TabelWid.ui'), self)
-        self.setWindowTitle('PYTHON GUI TABLEWIDGET')
+        self.setWindowTitle('DATA MAHASISWA')
         self.tableWidget.setColumnCount(8)
         self.tableWidget.setHorizontalHeaderLabels([
             "NPM", "Nama Lengkap", "Nama Panggilan", "Telepon", "Email", "Kelas", "Mata Kuliah", "Lokasi Kampus"
